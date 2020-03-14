@@ -111,13 +111,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="@string/button_red"
-        app:layout_constraintEnd_toStartOf="@+id/yellow_buttton"
+        app:layout_constraintBottom_toBottomOf="@+id/yellow_button"
+        app:layout_constraintEnd_toStartOf="@+id/yellow_button"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="472dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/yellow_buttton"
+        android:id="@+id/yellow_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -137,9 +137,9 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:text="@string/button_green"
+        app:layout_constraintBottom_toBottomOf="@+id/yellow_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/yellow_buttton"
-        tools:layout_editor_absoluteY="472dp" />
+        app:layout_constraintStart_toEndOf="@+id/yellow_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
